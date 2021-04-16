@@ -2,7 +2,7 @@
 
     "name": "Darkmode everywhere",
     "description": "This extension shifts every Website to a Darkmode theme. Developed by JoPh Development",
-    "version": "0.1.0",
+    "version": "2021.04.15",
     "manifest_version": 2,
     "icons": {
         "16": "./logo16.png",
@@ -13,13 +13,13 @@
     "background": {
         "scripts": ["./background.js"]
     },
-    "options_page": ["./options.html"],
     "browser_action": {
         "default_popup": "popup.html"
     },
     "permissions": [
         "tabs",
-        "https://google.com/*"
+        "https://google.com/*",
+        "storage"
 
 
     ]
