@@ -19,7 +19,7 @@
     },
     "permissions": [
         "tabs",
-        "https://google.com/"
+        "https://google.com/*"
 
 
     ]
